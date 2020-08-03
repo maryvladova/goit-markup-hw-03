@@ -30,6 +30,12 @@ p {
   margin-right: auto;
 }
 
+.container-hero {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .body {
   color: var(--title-text-color);
   font-family: Roboto;
@@ -350,13 +356,16 @@ p {
   color: var(--accent-text-color);
 }
 
+.footer {
+  background-color: #2f303a;
+}
+
 .footer-main {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   padding-bottom: 60px;
   padding-top: 60px;
-  background-color: #2f303a;
 }
 
 .footer-title {
